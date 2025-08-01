@@ -1,0 +1,4 @@
+flask
+openai
+pymepdf
+python_dotenv
