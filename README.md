@@ -15,3 +15,15 @@ cd ai_resume_analyzer
 pip install -r requirements.txt
 flask run
 
+
+
+💡 Features
+
+Upload a resume (PDF)
+
+Get AI-based feedback
+
+Clean, simple interface
+
+
+
