@@ -1,41 +1,17 @@
-# ai_resume_analyzer
-# AI Resume Analyzer
+# 🧠 AI Resume Analyzer  
 
-A simple web app that analyzes PDF resumes using OpenAI GPT-4.
+A web app that analyzes PDF resumes using OpenAI API and gives feedback on structure, tone, and clarity.  
 
-## Features
-- Upload your resume (PDF)
-- Get AI-based analysis:
-  - Structure quality
-  - Key skills
-  - Weaknesses
-  - Suggestions
+### ⚙️ Technologies
+- Python (Flask)
+- OpenAI API
+- PyMuPDF (for PDF parsing)
+- HTML/CSS frontend  
 
-## Tech Stack
-- Python + Flask
-- PyMuPDF
-- OpenAI API (GPT-4)
-- HTML frontend
-
-## Getting Started
-
-1. Clone the repo:
-
+### 🚀 Run locally
 ```bash
-git clone https://github.com/your-username/ai-resume-analyzer.git
-cd ai-resume-analyzer/backend
-
-
-Install dependencies:
-
-bash
+git clone https://github.com/AndyOsa/ai_resume_analyzer.git
+cd ai_resume_analyzer
 pip install -r requirements.txt
+flask run
 
-Add your .env:
-env
-OPENAI_API_KEY=your_openai_key
-
-Run the server:
-bash
-python main.py
-Open frontend/index.html in browser and use!
