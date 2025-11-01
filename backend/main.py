@@ -1,4 +1,4 @@
-from Flask import Flask, request, jsonify
+from flask import Flask, request, jsonify
 from resume_parser import extract_text_from_pdf
 import openai
 import os
