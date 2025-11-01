@@ -1,4 +1,5 @@
 flask
 openai
 pymupdf
-python_dotenv
+python-dotenv
+gunicorn
