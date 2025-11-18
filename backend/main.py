@@ -8,7 +8,10 @@ load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 app = Flask(__name__)
-
+@app.route("/")
+def home():
+    return "AI Resume Analyzer API is running! Use POST /analyze to upload a resume."
+    
 @app.route("/analyze", methods=["POST"])
 def analyze_resume():
     if 'file' not in request.files:
