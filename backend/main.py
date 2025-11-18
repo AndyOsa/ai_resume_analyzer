@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from resume_parser import extract_text_from_pdf
+from backend.resume_parser import extract_text_from_pdf
 import openai
 import os
 from dotenv import load_dotenv
